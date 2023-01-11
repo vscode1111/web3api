@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  web3api:
+    container_name: web3api
+    image: node:lts
+    working_dir: /var/www/html
+    entrypoint: /bin/bash
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./:/var/www/html
+    tty: true
+
+networks:
+  default:
+      name: web3-api-network
