@@ -1,4 +1,4 @@
-#  Car Bar MVP API
+#  Web3 MVP API
 
 > Fastify & TypeScript API to interact with smart-contract
 
