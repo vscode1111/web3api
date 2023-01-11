@@ -1,4 +1,4 @@
-#  Web3 MVP API
+#  Web3 API
 
 > Fastify & TypeScript API to interact with smart-contract
 
